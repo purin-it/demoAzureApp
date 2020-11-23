@@ -40,7 +40,7 @@
     </properties>
 
     <build>
-        <finalName>demoAzureApp</finalName>
+        <finalName>ROOT</finalName>
         <plugins>
             <plugin>
                 <groupId>org.springframework.boot</groupId>
