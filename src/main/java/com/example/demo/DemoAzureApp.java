@@ -6,15 +6,15 @@ import org.springframework.boot.builder.SpringApplicationBuilder;
 import org.springframework.boot.web.servlet.support.SpringBootServletInitializer;
 
 @SpringBootApplication
-public class DemoAzureAppApplication extends SpringBootServletInitializer {
+public class DemoAzureApp extends SpringBootServletInitializer {
 	
 	@Override
 	protected SpringApplicationBuilder configure(SpringApplicationBuilder application) {
-		return application.sources(DemoAzureAppApplication.class);
+		return application.sources(DemoAzureApp.class);
 	}
 	
 	public static void main(String[] args) {
-        SpringApplication.run(DemoAzureAppApplication.class, args);
+        SpringApplication.run(DemoAzureApp.class, args);
     }
 
 }
