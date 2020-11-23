@@ -5,7 +5,7 @@
 
     <groupId>com.example</groupId>
 	<artifactId>demoAzureApp</artifactId>
-	<version>0.0.1-SNAPSHOT</version>
+	<version>1.0</version>
 	<packaging>war</packaging>
 	<name>demoAzureApp</name>
     <parent>
@@ -40,6 +40,7 @@
     </properties>
 
     <build>
+        <finalName>demoAzureApp</finalName>
         <plugins>
             <plugin>
                 <groupId>org.springframework.boot</groupId>
