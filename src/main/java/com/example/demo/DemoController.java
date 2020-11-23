@@ -9,7 +9,7 @@ public class DemoController {
 
 	@GetMapping("/")
 	public String index(Model model){
-		model.addAttribute("message", "Hello App Service!! Updated!!");
+		model.addAttribute("message", "Hello App Service!!");
 		return "index";
 	}
 }
