@@ -13,7 +13,7 @@
   <artifactId>demoAzureApp</artifactId>  
   <version>0.0.1-SNAPSHOT</version>  
   <packaging>war</packaging>  
-  <name>demoAzureApp</name>  
+  <name>Sample Spring App</name>  
   <description>Demo project for Spring Boot</description>  
   <properties> 
     <java.version>1.8</java.version> 
@@ -38,7 +38,8 @@
       <scope>test</scope> 
     </dependency> 
   </dependencies>  
-  <build> 
+  <build>
+    <finalName>demoAzureApp</finalName>
     <plugins> 
       <plugin> 
         <groupId>org.springframework.boot</groupId>  
