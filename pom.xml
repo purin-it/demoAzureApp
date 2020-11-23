@@ -16,34 +16,29 @@
   <name>Sample Spring App</name>  
   <description>Demo project for Spring Boot</description>  
   <properties> 
-    <java.version>1.8</java.version> 
-  </properties>  
-  <dependencies> 
-    <dependency> 
-      <groupId>org.springframework.boot</groupId>  
-      <artifactId>spring-boot-starter-thymeleaf</artifactId> 
-    </dependency>  
-    <dependency> 
-      <groupId>org.springframework.boot</groupId>  
-      <artifactId>spring-boot-starter-web</artifactId> 
-    </dependency>  
-    <dependency> 
-      <groupId>org.springframework.boot</groupId>  
-      <artifactId>spring-boot-starter-tomcat</artifactId>  
-      <scope>provided</scope> 
-    </dependency>  
-    <dependency> 
-      <groupId>org.springframework.boot</groupId>  
+    <java.version>1.8</java.version>
+  </properties>
+  <dependencies>
+    <dependency>
+      <groupId>org.springframework.boot</groupId>
+      <artifactId>spring-boot-starter-thymeleaf</artifactId>
+    </dependency>
+    <dependency>
+      <groupId>org.springframework.boot</groupId>
+      <artifactId>spring-boot-starter-web</artifactId>
+    </dependency>
+    <dependency>
+      <groupId>org.springframework.boot</groupId>
       <artifactId>spring-boot-starter-test</artifactId>  
-      <scope>test</scope> 
-    </dependency> 
-  </dependencies>  
+      <scope>test</scope>
+    </dependency>
+  </dependencies>
   <build>
     <finalName>demoAzureApp</finalName>
-    <plugins> 
-      <plugin> 
-        <groupId>org.springframework.boot</groupId>  
-        <artifactId>spring-boot-maven-plugin</artifactId> 
+    <plugins>
+      <plugin>
+        <groupId>org.springframework.boot</groupId>
+        <artifactId>spring-boot-maven-plugin</artifactId>
       </plugin>
       <plugin>
         <artifactId>maven-failsafe-plugin</artifactId>
